@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trayectorias de Huracanes
 
 Jupyter Book sobre análisis de trayectorias de huracanes usando machine learning.
@@ -24,3 +25,6 @@ jupyter-book serve .
 - `trayectorias_all.ipynb` - Notebook principal con el análisis
 - `_config.yml` - Configuración del Jupyter Book
 - `_toc.yml` - Tabla de contenidos
+=======
+# TESIS_hurricane_Trajectories
+>>>>>>> 58894ad798c657dd67f2678f61e8b6760feacc9d
