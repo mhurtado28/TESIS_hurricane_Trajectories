@@ -2,9 +2,9 @@ name: Deploy Jupyter Book to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
 
 permissions:
   contents: read
@@ -21,20 +21,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
-
+          python-version: '3.11'
+          
       - name: Install dependencies
         run: |
           pip install -U jupyter-book
-
+          pip install sphinx-book-theme
+          pip install myst-nb
+          
       - name: Build book
-        run: |
-          jupyter-book build .
-
+        run: jupyter-book build .
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

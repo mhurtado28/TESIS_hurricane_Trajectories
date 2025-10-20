@@ -1,5 +1,33 @@
 title: "Trayectorias de Huracanes"
 author: "Mauricio Hurtado"
 logo: ""
+description: "Análisis de trayectorias de huracanes usando machine learning con enfoque en las Islas de San Andrés y Providencia"
+
+# Configuración de ejecución
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: "off"  # Cambiar a "auto" si quieres ejecutar automáticamente
+  timeout: 60
+  allow_errors: false
+
+# Configuración de la interfaz
+html:
+  theme:
+    name: sphinx_book_theme
+    options:
+      logo_only: true
+      show_navbar: false
+      show_toc_level: 2
+      navbar_footer_text: "Trayectorias de Huracanes - Mauricio Hurtado"
+      extra_navbar: "Powered by Jupyter Book"
+      extra_footer: ""
+
+# Configuración de publicación
+sphinx:
+  config:
+    html_theme_options:
+      repository_url: "https://github.com/mhurtado28/TESIS_hurricane_Trajectories"
+      repository_branch: "main"
+      path_to_docs: ""
+      use_edit_page_button: true
+      use_issues_button: true
+      use_repository_button: true
