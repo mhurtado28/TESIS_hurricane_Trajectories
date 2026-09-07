@@ -4,7 +4,7 @@ Jupyter Book sobre análisis de trayectorias de huracanes usando machine learnin
 
 ## 📖 Ver el libro en línea
 
-El libro está disponible en: [https://mhurtado28.github.io/TESIS_hurricane_Trajectories/](https://mhurtado28.github.io/TESIS_hurricane_Trajectories/)
+El libro está disponible en: [https://mhurtado28.github.io/TESIS_hurricane_Trajectories/]([https://mhurtado28.github.io/TESIS_hurricane_Trajectories/](https://mhurtado28.github.io/TESIS_hurricane_Trajectories/tesis_final_05_09_2026.html))
 
 **Última actualización**: $(date)
 
